@@ -14,23 +14,21 @@ public class MainClass {
 	 */
 	public static void main(String[] args) {
 		System.out.println("main of Main");
-		PrintStars printer1 = new PrintStars();
-		printer1.one();
+		PrintStars printer = new PrintStars();
+		printer.one();
+		lineBreak();
+		printer.two();
+		lineBreak();
+		printer.three();
+		lineBreak();
+		printer.four();
 	}
 	
 	
 	
-	public void two() {
-		
+	public static void lineBreak() {
+		System.out.println("---------");
 	}
 
-	public void three() {
-	
-
-	}
-
-	public void four() {
-		
-	}
 
 }
