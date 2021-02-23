@@ -8,7 +8,7 @@ package com.ss.assignments.day01;
  *
  */
 public class MainClass {
-
+	
 	/**
 	 * @param args
 	 */
@@ -22,6 +22,11 @@ public class MainClass {
 		printer.three();
 		lineBreak();
 		printer.four();
+		
+		RandomNum random = new RandomNum();
+		random.readInput();
+		
+		
 	}
 	
 	
